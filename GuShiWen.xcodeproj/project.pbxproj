@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36A5C25D1CBBD874008CAADD /* GSWSayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C25C1CBBD874008CAADD /* GSWSayingViewController.m */; };
+		36A5C2601CBBD887008CAADD /* GSWBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C25F1CBBD887008CAADD /* GSWBookViewController.m */; };
+		36A5C2631CBBD89A008CAADD /* GSWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2621CBBD89A008CAADD /* GSWHomeViewController.m */; };
+		36A5C2651CBBE663008CAADD /* GSWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C2641CBBE663008CAADD /* GSWHomeViewController.xib */; };
+		36A5C2691CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2681CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m */; };
+		36A5C26C1CBD1EA5008CAADD /* GSWHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C26B1CBD1EA5008CAADD /* GSWHomeTableViewCell.m */; };
+		36A5C26E1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C26D1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib */; };
+		36A5C2711CBD4A50008CAADD /* GSWDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2701CBD4A50008CAADD /* GSWDatabaseManager.m */; };
+		36A5C2741CBD4BCD008CAADD /* GSWDatabaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2731CBD4BCD008CAADD /* GSWDatabaseOperation.m */; };
+		36A5C2771CBD5496008CAADD /* GSWAuthorInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2761CBD5496008CAADD /* GSWAuthorInfoResponse.m */; };
+		36A5C27A1CBE7F43008CAADD /* GSWGlobalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2791CBE7F43008CAADD /* GSWGlobalObject.m */; };
+		36A5C27E1CBE8A45008CAADD /* GSWNewUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C27C1CBE8A45008CAADD /* GSWNewUpdateViewController.m */; };
+		36A5C27F1CBE8A45008CAADD /* GSWNewUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C27D1CBE8A45008CAADD /* GSWNewUpdateViewController.xib */; };
+		36A5C2831CBE9A61008CAADD /* GSWPoemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2811CBE9A61008CAADD /* GSWPoemViewController.m */; };
+		36A5C2841CBE9A61008CAADD /* GSWPoemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C2821CBE9A61008CAADD /* GSWPoemViewController.xib */; };
+		36A5C2871CBE9B93008CAADD /* GSWPoemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2861CBE9B93008CAADD /* GSWPoemResponse.m */; };
+		36D5B8BB1CBB899F00BB245C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8BA1CBB899F00BB245C /* main.m */; };
+		36D5B8BE1CBB899F00BB245C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8BD1CBB899F00BB245C /* AppDelegate.m */; };
+		36D5B8C11CBB899F00BB245C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8C01CBB899F00BB245C /* ViewController.m */; };
+		36D5B8C41CBB899F00BB245C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D5B8C21CBB899F00BB245C /* Main.storyboard */; };
+		36D5B8C61CBB899F00BB245C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D5B8C51CBB899F00BB245C /* Assets.xcassets */; };
+		36D5B8C91CBB899F00BB245C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D5B8C71CBB899F00BB245C /* LaunchScreen.storyboard */; };
+		36D5B8D41CBB89A000BB245C /* GuShiWenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8D31CBB89A000BB245C /* GuShiWenTests.m */; };
+		36D5B8DF1CBB89A000BB245C /* GuShiWenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8DE1CBB89A000BB245C /* GuShiWenUITests.m */; };
+		36D5B8F21CBB8D4700BB245C /* GSWNetApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8F11CBB8D4700BB245C /* GSWNetApiManager.m */; };
+		36D5B8F61CBB8FD400BB245C /* GSWHttpSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8F51CBB8FD400BB245C /* GSWHttpSessionManager.m */; };
+		36D5B8F91CBB91D500BB245C /* GSWRequestBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8F81CBB91D500BB245C /* GSWRequestBuild.m */; };
+		36D5B8FC1CBB949500BB245C /* GSWMainPageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8FB1CBB949500BB245C /* GSWMainPageRequest.m */; };
+		36D5B9051CBB955600BB245C /* GSWMainPageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B9041CBB955600BB245C /* GSWMainPageResponse.m */; };
+		36D5B9101CBBD76500BB245C /* GSWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B90F1CBBD76500BB245C /* GSWBaseViewController.m */; };
+		722AE809FC8380695D8662DC /* libPods-GuShiWen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB2F803D6230EDDEC621AF /* libPods-GuShiWen.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D5B8D01CBB89A000BB245C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D5B8AE1CBB899F00BB245C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D5B8B51CBB899F00BB245C;
+			remoteInfo = GuShiWen;
+		};
+		36D5B8DB1CBB89A000BB245C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D5B8AE1CBB899F00BB245C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D5B8B51CBB899F00BB245C;
+			remoteInfo = GuShiWen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2532CDA2220A976226C243A1 /* Pods-GuShiWen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuShiWen.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuShiWen/Pods-GuShiWen.release.xcconfig"; sourceTree = "<group>"; };
+		3059044E504AFBD2DAD01EA0 /* Pods-GuShiWen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuShiWen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuShiWen/Pods-GuShiWen.debug.xcconfig"; sourceTree = "<group>"; };
+		36A5C25B1CBBD874008CAADD /* GSWSayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWSayingViewController.h; sourceTree = "<group>"; };
+		36A5C25C1CBBD874008CAADD /* GSWSayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWSayingViewController.m; sourceTree = "<group>"; };
+		36A5C25E1CBBD887008CAADD /* GSWBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWBookViewController.h; sourceTree = "<group>"; };
+		36A5C25F1CBBD887008CAADD /* GSWBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWBookViewController.m; sourceTree = "<group>"; };
+		36A5C2611CBBD89A008CAADD /* GSWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWHomeViewController.h; sourceTree = "<group>"; };
+		36A5C2621CBBD89A008CAADD /* GSWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWHomeViewController.m; sourceTree = "<group>"; };
+		36A5C2641CBBE663008CAADD /* GSWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWHomeViewController.xib; sourceTree = "<group>"; };
+		36A5C2671CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectDynamicSerilize.h"; sourceTree = "<group>"; };
+		36A5C2681CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectDynamicSerilize.m"; sourceTree = "<group>"; };
+		36A5C26A1CBD1EA5008CAADD /* GSWHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWHomeTableViewCell.h; sourceTree = "<group>"; };
+		36A5C26B1CBD1EA5008CAADD /* GSWHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWHomeTableViewCell.m; sourceTree = "<group>"; };
+		36A5C26D1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWHomeTableViewCell.xib; sourceTree = "<group>"; };
+		36A5C26F1CBD4A50008CAADD /* GSWDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWDatabaseManager.h; sourceTree = "<group>"; };
+		36A5C2701CBD4A50008CAADD /* GSWDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWDatabaseManager.m; sourceTree = "<group>"; };
+		36A5C2721CBD4BCD008CAADD /* GSWDatabaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWDatabaseOperation.h; sourceTree = "<group>"; };
+		36A5C2731CBD4BCD008CAADD /* GSWDatabaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWDatabaseOperation.m; sourceTree = "<group>"; };
+		36A5C2751CBD5496008CAADD /* GSWAuthorInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWAuthorInfoResponse.h; sourceTree = "<group>"; };
+		36A5C2761CBD5496008CAADD /* GSWAuthorInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWAuthorInfoResponse.m; sourceTree = "<group>"; };
+		36A5C2781CBE7F43008CAADD /* GSWGlobalObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWGlobalObject.h; sourceTree = "<group>"; };
+		36A5C2791CBE7F43008CAADD /* GSWGlobalObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWGlobalObject.m; sourceTree = "<group>"; };
+		36A5C27B1CBE8A45008CAADD /* GSWNewUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWNewUpdateViewController.h; sourceTree = "<group>"; };
+		36A5C27C1CBE8A45008CAADD /* GSWNewUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWNewUpdateViewController.m; sourceTree = "<group>"; };
+		36A5C27D1CBE8A45008CAADD /* GSWNewUpdateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWNewUpdateViewController.xib; sourceTree = "<group>"; };
+		36A5C2801CBE9A61008CAADD /* GSWPoemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWPoemViewController.h; sourceTree = "<group>"; };
+		36A5C2811CBE9A61008CAADD /* GSWPoemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWPoemViewController.m; sourceTree = "<group>"; };
+		36A5C2821CBE9A61008CAADD /* GSWPoemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWPoemViewController.xib; sourceTree = "<group>"; };
+		36A5C2851CBE9B93008CAADD /* GSWPoemResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWPoemResponse.h; sourceTree = "<group>"; };
+		36A5C2861CBE9B93008CAADD /* GSWPoemResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWPoemResponse.m; sourceTree = "<group>"; };
+		36D5B8B61CBB899F00BB245C /* GuShiWen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuShiWen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D5B8BA1CBB899F00BB245C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36D5B8BC1CBB899F00BB245C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36D5B8BD1CBB899F00BB245C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36D5B8BF1CBB899F00BB245C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36D5B8C01CBB899F00BB245C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36D5B8C31CBB899F00BB245C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36D5B8C51CBB899F00BB245C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36D5B8C81CBB899F00BB245C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36D5B8CA1CBB899F00BB245C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D5B8CF1CBB89A000BB245C /* GuShiWenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuShiWenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D5B8D31CBB89A000BB245C /* GuShiWenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuShiWenTests.m; sourceTree = "<group>"; };
+		36D5B8D51CBB89A000BB245C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D5B8DA1CBB89A000BB245C /* GuShiWenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuShiWenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D5B8DE1CBB89A000BB245C /* GuShiWenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuShiWenUITests.m; sourceTree = "<group>"; };
+		36D5B8E01CBB89A000BB245C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D5B8ED1CBB8C4400BB245C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		36D5B8F01CBB8D4700BB245C /* GSWNetApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWNetApiManager.h; sourceTree = "<group>"; };
+		36D5B8F11CBB8D4700BB245C /* GSWNetApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWNetApiManager.m; sourceTree = "<group>"; };
+		36D5B8F41CBB8FD400BB245C /* GSWHttpSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWHttpSessionManager.h; sourceTree = "<group>"; };
+		36D5B8F51CBB8FD400BB245C /* GSWHttpSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWHttpSessionManager.m; sourceTree = "<group>"; };
+		36D5B8F71CBB91D500BB245C /* GSWRequestBuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWRequestBuild.h; sourceTree = "<group>"; };
+		36D5B8F81CBB91D500BB245C /* GSWRequestBuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWRequestBuild.m; sourceTree = "<group>"; };
+		36D5B8FA1CBB949500BB245C /* GSWMainPageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWMainPageRequest.h; sourceTree = "<group>"; };
+		36D5B8FB1CBB949500BB245C /* GSWMainPageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWMainPageRequest.m; sourceTree = "<group>"; };
+		36D5B9031CBB955600BB245C /* GSWMainPageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWMainPageResponse.h; sourceTree = "<group>"; };
+		36D5B9041CBB955600BB245C /* GSWMainPageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWMainPageResponse.m; sourceTree = "<group>"; };
+		36D5B90E1CBBD76500BB245C /* GSWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWBaseViewController.h; sourceTree = "<group>"; };
+		36D5B90F1CBBD76500BB245C /* GSWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWBaseViewController.m; sourceTree = "<group>"; };
+		8ACB2F803D6230EDDEC621AF /* libPods-GuShiWen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuShiWen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D5B8B31CBB899F00BB245C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722AE809FC8380695D8662DC /* libPods-GuShiWen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5B8CC1CBB89A000BB245C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5B8D71CBB89A000BB245C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36A5C2661CBD1CAC008CAADD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C2671CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.h */,
+				36A5C2681CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		36D5B8AD1CBB899F00BB245C = {
+			isa = PBXGroup;
+			children = (
+				36D5B8B81CBB899F00BB245C /* GuShiWen */,
+				36D5B8D21CBB89A000BB245C /* GuShiWenTests */,
+				36D5B8DD1CBB89A000BB245C /* GuShiWenUITests */,
+				36D5B8B71CBB899F00BB245C /* Products */,
+				B8D2D1AEC29CCC5686184859 /* Pods */,
+				696B3BECCEA39DFCD3186F53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36D5B8B71CBB899F00BB245C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8B61CBB899F00BB245C /* GuShiWen.app */,
+				36D5B8CF1CBB89A000BB245C /* GuShiWenTests.xctest */,
+				36D5B8DA1CBB89A000BB245C /* GuShiWenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D5B8B81CBB899F00BB245C /* GuShiWen */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C2661CBD1CAC008CAADD /* Category */,
+				36D5B90A1CBBD5AF00BB245C /* ViewController */,
+				36D5B9091CBBD5A700BB245C /* View */,
+				36D5B8F31CBB8F8000BB245C /* Entity */,
+				36D5B8EF1CBB8C6A00BB245C /* Manager */,
+				36D5B8EE1CBB8C5200BB245C /* Network */,
+				36D5B8EC1CBB8C2900BB245C /* Constants */,
+				36D5B8BC1CBB899F00BB245C /* AppDelegate.h */,
+				36D5B8BD1CBB899F00BB245C /* AppDelegate.m */,
+				36D5B8BF1CBB899F00BB245C /* ViewController.h */,
+				36D5B8C01CBB899F00BB245C /* ViewController.m */,
+				36D5B8C21CBB899F00BB245C /* Main.storyboard */,
+				36D5B8C51CBB899F00BB245C /* Assets.xcassets */,
+				36D5B8C71CBB899F00BB245C /* LaunchScreen.storyboard */,
+				36D5B8CA1CBB899F00BB245C /* Info.plist */,
+				36D5B8B91CBB899F00BB245C /* Supporting Files */,
+			);
+			path = GuShiWen;
+			sourceTree = "<group>";
+		};
+		36D5B8B91CBB899F00BB245C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8BA1CBB899F00BB245C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D5B8D21CBB89A000BB245C /* GuShiWenTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8D31CBB89A000BB245C /* GuShiWenTests.m */,
+				36D5B8D51CBB89A000BB245C /* Info.plist */,
+			);
+			path = GuShiWenTests;
+			sourceTree = "<group>";
+		};
+		36D5B8DD1CBB89A000BB245C /* GuShiWenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8DE1CBB89A000BB245C /* GuShiWenUITests.m */,
+				36D5B8E01CBB89A000BB245C /* Info.plist */,
+			);
+			path = GuShiWenUITests;
+			sourceTree = "<group>";
+		};
+		36D5B8EC1CBB8C2900BB245C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8ED1CBB8C4400BB245C /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		36D5B8EE1CBB8C5200BB245C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8F41CBB8FD400BB245C /* GSWHttpSessionManager.h */,
+				36D5B8F51CBB8FD400BB245C /* GSWHttpSessionManager.m */,
+				36D5B8F71CBB91D500BB245C /* GSWRequestBuild.h */,
+				36D5B8F81CBB91D500BB245C /* GSWRequestBuild.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		36D5B8EF1CBB8C6A00BB245C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8F01CBB8D4700BB245C /* GSWNetApiManager.h */,
+				36D5B8F11CBB8D4700BB245C /* GSWNetApiManager.m */,
+				36A5C26F1CBD4A50008CAADD /* GSWDatabaseManager.h */,
+				36A5C2701CBD4A50008CAADD /* GSWDatabaseManager.m */,
+				36A5C2721CBD4BCD008CAADD /* GSWDatabaseOperation.h */,
+				36A5C2731CBD4BCD008CAADD /* GSWDatabaseOperation.m */,
+				36A5C2781CBE7F43008CAADD /* GSWGlobalObject.h */,
+				36A5C2791CBE7F43008CAADD /* GSWGlobalObject.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		36D5B8F31CBB8F8000BB245C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B8FA1CBB949500BB245C /* GSWMainPageRequest.h */,
+				36D5B8FB1CBB949500BB245C /* GSWMainPageRequest.m */,
+				36D5B9031CBB955600BB245C /* GSWMainPageResponse.h */,
+				36D5B9041CBB955600BB245C /* GSWMainPageResponse.m */,
+				36A5C2751CBD5496008CAADD /* GSWAuthorInfoResponse.h */,
+				36A5C2761CBD5496008CAADD /* GSWAuthorInfoResponse.m */,
+				36A5C2851CBE9B93008CAADD /* GSWPoemResponse.h */,
+				36A5C2861CBE9B93008CAADD /* GSWPoemResponse.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		36D5B9091CBBD5A700BB245C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36A5C26A1CBD1EA5008CAADD /* GSWHomeTableViewCell.h */,
+				36A5C26B1CBD1EA5008CAADD /* GSWHomeTableViewCell.m */,
+				36A5C26D1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		36D5B90A1CBBD5AF00BB245C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				36D5B90E1CBBD76500BB245C /* GSWBaseViewController.h */,
+				36D5B90F1CBBD76500BB245C /* GSWBaseViewController.m */,
+				36A5C25B1CBBD874008CAADD /* GSWSayingViewController.h */,
+				36A5C25C1CBBD874008CAADD /* GSWSayingViewController.m */,
+				36A5C25E1CBBD887008CAADD /* GSWBookViewController.h */,
+				36A5C25F1CBBD887008CAADD /* GSWBookViewController.m */,
+				36A5C2611CBBD89A008CAADD /* GSWHomeViewController.h */,
+				36A5C2621CBBD89A008CAADD /* GSWHomeViewController.m */,
+				36A5C2641CBBE663008CAADD /* GSWHomeViewController.xib */,
+				36A5C27B1CBE8A45008CAADD /* GSWNewUpdateViewController.h */,
+				36A5C27C1CBE8A45008CAADD /* GSWNewUpdateViewController.m */,
+				36A5C27D1CBE8A45008CAADD /* GSWNewUpdateViewController.xib */,
+				36A5C2801CBE9A61008CAADD /* GSWPoemViewController.h */,
+				36A5C2811CBE9A61008CAADD /* GSWPoemViewController.m */,
+				36A5C2821CBE9A61008CAADD /* GSWPoemViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		696B3BECCEA39DFCD3186F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB2F803D6230EDDEC621AF /* libPods-GuShiWen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8D2D1AEC29CCC5686184859 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3059044E504AFBD2DAD01EA0 /* Pods-GuShiWen.debug.xcconfig */,
+				2532CDA2220A976226C243A1 /* Pods-GuShiWen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D5B8B51CBB899F00BB245C /* GuShiWen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D5B8E31CBB89A000BB245C /* Build configuration list for PBXNativeTarget "GuShiWen" */;
+			buildPhases = (
+				D0E6FC61866B1A6A67C53846 /* Check Pods Manifest.lock */,
+				36D5B8B21CBB899F00BB245C /* Sources */,
+				36D5B8B31CBB899F00BB245C /* Frameworks */,
+				36D5B8B41CBB899F00BB245C /* Resources */,
+				172A857E1ECB139BDD23036A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuShiWen;
+			productName = GuShiWen;
+			productReference = 36D5B8B61CBB899F00BB245C /* GuShiWen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D5B8CE1CBB89A000BB245C /* GuShiWenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D5B8E61CBB89A000BB245C /* Build configuration list for PBXNativeTarget "GuShiWenTests" */;
+			buildPhases = (
+				36D5B8CB1CBB89A000BB245C /* Sources */,
+				36D5B8CC1CBB89A000BB245C /* Frameworks */,
+				36D5B8CD1CBB89A000BB245C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D5B8D11CBB89A000BB245C /* PBXTargetDependency */,
+			);
+			name = GuShiWenTests;
+			productName = GuShiWenTests;
+			productReference = 36D5B8CF1CBB89A000BB245C /* GuShiWenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36D5B8D91CBB89A000BB245C /* GuShiWenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D5B8E91CBB89A000BB245C /* Build configuration list for PBXNativeTarget "GuShiWenUITests" */;
+			buildPhases = (
+				36D5B8D61CBB89A000BB245C /* Sources */,
+				36D5B8D71CBB89A000BB245C /* Frameworks */,
+				36D5B8D81CBB89A000BB245C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D5B8DC1CBB89A000BB245C /* PBXTargetDependency */,
+			);
+			name = GuShiWenUITests;
+			productName = GuShiWenUITests;
+			productReference = 36D5B8DA1CBB89A000BB245C /* GuShiWenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D5B8AE1CBB899F00BB245C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = byn;
+				TargetAttributes = {
+					36D5B8B51CBB899F00BB245C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Q6JX8PB8GP;
+					};
+					36D5B8CE1CBB89A000BB245C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Q6JX8PB8GP;
+						TestTargetID = 36D5B8B51CBB899F00BB245C;
+					};
+					36D5B8D91CBB89A000BB245C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = Q6JX8PB8GP;
+						TestTargetID = 36D5B8B51CBB899F00BB245C;
+					};
+				};
+			};
+			buildConfigurationList = 36D5B8B11CBB899F00BB245C /* Build configuration list for PBXProject "GuShiWen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D5B8AD1CBB899F00BB245C;
+			productRefGroup = 36D5B8B71CBB899F00BB245C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D5B8B51CBB899F00BB245C /* GuShiWen */,
+				36D5B8CE1CBB89A000BB245C /* GuShiWenTests */,
+				36D5B8D91CBB89A000BB245C /* GuShiWenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D5B8B41CBB899F00BB245C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5B8C91CBB899F00BB245C /* LaunchScreen.storyboard in Resources */,
+				36A5C26E1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib in Resources */,
+				36D5B8C61CBB899F00BB245C /* Assets.xcassets in Resources */,
+				36D5B8C41CBB899F00BB245C /* Main.storyboard in Resources */,
+				36A5C27F1CBE8A45008CAADD /* GSWNewUpdateViewController.xib in Resources */,
+				36A5C2651CBBE663008CAADD /* GSWHomeViewController.xib in Resources */,
+				36A5C2841CBE9A61008CAADD /* GSWPoemViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5B8CD1CBB89A000BB245C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5B8D81CBB89A000BB245C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		172A857E1ECB139BDD23036A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuShiWen/Pods-GuShiWen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E6FC61866B1A6A67C53846 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D5B8B21CBB899F00BB245C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5B8F61CBB8FD400BB245C /* GSWHttpSessionManager.m in Sources */,
+				36A5C26C1CBD1EA5008CAADD /* GSWHomeTableViewCell.m in Sources */,
+				36D5B8C11CBB899F00BB245C /* ViewController.m in Sources */,
+				36A5C2871CBE9B93008CAADD /* GSWPoemResponse.m in Sources */,
+				36A5C2831CBE9A61008CAADD /* GSWPoemViewController.m in Sources */,
+				36A5C2741CBD4BCD008CAADD /* GSWDatabaseOperation.m in Sources */,
+				36D5B8F91CBB91D500BB245C /* GSWRequestBuild.m in Sources */,
+				36A5C2771CBD5496008CAADD /* GSWAuthorInfoResponse.m in Sources */,
+				36D5B9101CBBD76500BB245C /* GSWBaseViewController.m in Sources */,
+				36A5C25D1CBBD874008CAADD /* GSWSayingViewController.m in Sources */,
+				36A5C27A1CBE7F43008CAADD /* GSWGlobalObject.m in Sources */,
+				36D5B8BE1CBB899F00BB245C /* AppDelegate.m in Sources */,
+				36D5B8F21CBB8D4700BB245C /* GSWNetApiManager.m in Sources */,
+				36A5C2631CBBD89A008CAADD /* GSWHomeViewController.m in Sources */,
+				36D5B8FC1CBB949500BB245C /* GSWMainPageRequest.m in Sources */,
+				36A5C2601CBBD887008CAADD /* GSWBookViewController.m in Sources */,
+				36D5B9051CBB955600BB245C /* GSWMainPageResponse.m in Sources */,
+				36A5C2691CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m in Sources */,
+				36A5C27E1CBE8A45008CAADD /* GSWNewUpdateViewController.m in Sources */,
+				36A5C2711CBD4A50008CAADD /* GSWDatabaseManager.m in Sources */,
+				36D5B8BB1CBB899F00BB245C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5B8CB1CBB89A000BB245C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5B8D41CBB89A000BB245C /* GuShiWenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5B8D61CBB89A000BB245C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5B8DF1CBB89A000BB245C /* GuShiWenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D5B8D11CBB89A000BB245C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D5B8B51CBB899F00BB245C /* GuShiWen */;
+			targetProxy = 36D5B8D01CBB89A000BB245C /* PBXContainerItemProxy */;
+		};
+		36D5B8DC1CBB89A000BB245C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D5B8B51CBB899F00BB245C /* GuShiWen */;
+			targetProxy = 36D5B8DB1CBB89A000BB245C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36D5B8C21CBB899F00BB245C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D5B8C31CBB899F00BB245C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36D5B8C71CBB899F00BB245C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36D5B8C81CBB899F00BB245C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36D5B8E11CBB89A000BB245C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36D5B8E21CBB89A000BB245C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D5B8E41CBB89A000BB245C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3059044E504AFBD2DAD01EA0 /* Pods-GuShiWen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuShiWen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = byn.GuShiWen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36D5B8E51CBB89A000BB245C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2532CDA2220A976226C243A1 /* Pods-GuShiWen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuShiWen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = byn.GuShiWen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36D5B8E71CBB89A000BB245C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuShiWenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = byn.GuShiWenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuShiWen.app/GuShiWen";
+			};
+			name = Debug;
+		};
+		36D5B8E81CBB89A000BB245C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuShiWenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = byn.GuShiWenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuShiWen.app/GuShiWen";
+			};
+			name = Release;
+		};
+		36D5B8EA1CBB89A000BB245C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuShiWenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = byn.GuShiWenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuShiWen;
+			};
+			name = Debug;
+		};
+		36D5B8EB1CBB89A000BB245C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuShiWenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = byn.GuShiWenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuShiWen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D5B8B11CBB899F00BB245C /* Build configuration list for PBXProject "GuShiWen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5B8E11CBB89A000BB245C /* Debug */,
+				36D5B8E21CBB89A000BB245C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D5B8E31CBB89A000BB245C /* Build configuration list for PBXNativeTarget "GuShiWen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5B8E41CBB89A000BB245C /* Debug */,
+				36D5B8E51CBB89A000BB245C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D5B8E61CBB89A000BB245C /* Build configuration list for PBXNativeTarget "GuShiWenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5B8E71CBB89A000BB245C /* Debug */,
+				36D5B8E81CBB89A000BB245C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D5B8E91CBB89A000BB245C /* Build configuration list for PBXNativeTarget "GuShiWenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5B8EA1CBB89A000BB245C /* Debug */,
+				36D5B8EB1CBB89A000BB245C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D5B8AE1CBB899F00BB245C /* Project object */;
+}
