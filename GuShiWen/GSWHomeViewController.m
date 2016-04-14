@@ -13,7 +13,7 @@
 #import "Constants.h"
 #import "GSWNewUpdateViewController.h"
 
-@interface GSWHomeViewController ()
+@interface GSWHomeViewController () <UIScrollViewDelegate>
 
 @property (nonatomic ,strong) NSArray *itemArray;
 @property (nonatomic ,strong) UIViewController *currentViewController;
@@ -24,6 +24,7 @@
 @property (nonatomic ,assign) NSInteger currentSelectChildPage;
 @property (nonatomic ,strong) UIScrollView *scrollView;
 @property (nonatomic ,strong) NSMutableDictionary *childViewControllerMapper;
+@property (nonatomic ,strong) NSMutableArray *buttonArray;
 
 @end
 
@@ -57,6 +58,7 @@
     self.theNewUpdateViewController = [[GSWNewUpdateViewController alloc] init];
     self.theNewUpdateViewController.view.frame = CGRectMake(0, 0, screenWidth, screenHeight-64);
     
+    self.buttonArray = [[NSMutableArray alloc] init];
     CGFloat viewWidth = screenWidth -100;
     UIView *barView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, viewWidth, 30)];
     for (int i = 0; i < self.itemArray.count; i++) {
@@ -66,6 +68,7 @@
         button.frame = CGRectMake(i * viewWidth/4, 0, viewWidth/4, 30);
         [button addTarget:self action:@selector(onButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
         [barView addSubview:button];
+        [self.buttonArray addObject:button];
     }
     
     self.navigationItem.titleView = barView;
@@ -73,6 +76,7 @@
     self.currentViewController = self.theNewUpdateViewController;
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, screenWidth,screenHeight)];
     self.scrollView.pagingEnabled = YES;
+    self.scrollView.delegate = self;
     [self.view addSubview:self.scrollView];
     [self.scrollView addSubview:self.theNewUpdateViewController.view];
     [self.scrollView addSubview:self.poemViewController.view];
@@ -90,12 +94,27 @@
     [UIView animateWithDuration:0.5 animations:^{
         [self.scrollView setContentOffset:CGPointMake(screenWidth * (self.currentSelectChildPage % 4), -64)];
     } completion:^(BOOL finished) {
-        
+        [self setScrollViewEndedState];
     }];
     
 }
 
+- (void)setScrollViewEndedState {
+    if (self.currentSelectChildPage < 4) {
+        for (int i = 0 ;i < self.buttonArray.count ;i ++) {
+            
+            UIButton *button = [self.buttonArray objectAtIndex:i];
+            button.enabled = (self.currentSelectChildPage != i);
+        }
+    }
+}
 
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    
+    float x = self.scrollView.contentOffset.x;
+    self.currentSelectChildPage = x / screenWidth;
+    [self setScrollViewEndedState];
+}
 
 
 @end

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A5C25D1CBBD874008CAADD /* GSWSayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C25C1CBBD874008CAADD /* GSWSayingViewController.m */; };
-		36A5C2601CBBD887008CAADD /* GSWBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C25F1CBBD887008CAADD /* GSWBookViewController.m */; };
 		36A5C2631CBBD89A008CAADD /* GSWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2621CBBD89A008CAADD /* GSWHomeViewController.m */; };
 		36A5C2651CBBE663008CAADD /* GSWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C2641CBBE663008CAADD /* GSWHomeViewController.xib */; };
 		36A5C2691CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2681CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m */; };
@@ -23,6 +21,16 @@
 		36A5C2831CBE9A61008CAADD /* GSWPoemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2811CBE9A61008CAADD /* GSWPoemViewController.m */; };
 		36A5C2841CBE9A61008CAADD /* GSWPoemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C2821CBE9A61008CAADD /* GSWPoemViewController.xib */; };
 		36A5C2871CBE9B93008CAADD /* GSWPoemResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2861CBE9B93008CAADD /* GSWPoemResponse.m */; };
+		36A5C28A1CBFD5EE008CAADD /* GSWSayingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2891CBFD5EE008CAADD /* GSWSayingResponse.m */; };
+		36A5C28E1CBFD723008CAADD /* GSWSayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C28C1CBFD723008CAADD /* GSWSayingViewController.m */; };
+		36A5C28F1CBFD723008CAADD /* GSWSayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C28D1CBFD723008CAADD /* GSWSayingViewController.xib */; };
+		36A5C2931CBFDC40008CAADD /* GSWSayingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2911CBFDC40008CAADD /* GSWSayingTableViewCell.m */; };
+		36A5C2941CBFDC40008CAADD /* GSWSayingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C2921CBFDC40008CAADD /* GSWSayingTableViewCell.xib */; };
+		36A5C2981CBFE054008CAADD /* GSWBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C2961CBFE054008CAADD /* GSWBookViewController.m */; };
+		36A5C2991CBFE054008CAADD /* GSWBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C2971CBFE054008CAADD /* GSWBookViewController.xib */; };
+		36A5C29C1CBFE1C3008CAADD /* GSWBookResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C29B1CBFE1C3008CAADD /* GSWBookResponse.m */; };
+		36A5C2A01CBFE6C9008CAADD /* GSWBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5C29E1CBFE6C9008CAADD /* GSWBookTableViewCell.m */; };
+		36A5C2A11CBFE6C9008CAADD /* GSWBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36A5C29F1CBFE6C9008CAADD /* GSWBookTableViewCell.xib */; };
 		36D5B8BB1CBB899F00BB245C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8BA1CBB899F00BB245C /* main.m */; };
 		36D5B8BE1CBB899F00BB245C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8BD1CBB899F00BB245C /* AppDelegate.m */; };
 		36D5B8C11CBB899F00BB245C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D5B8C01CBB899F00BB245C /* ViewController.m */; };
@@ -60,10 +68,6 @@
 /* Begin PBXFileReference section */
 		2532CDA2220A976226C243A1 /* Pods-GuShiWen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuShiWen.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuShiWen/Pods-GuShiWen.release.xcconfig"; sourceTree = "<group>"; };
 		3059044E504AFBD2DAD01EA0 /* Pods-GuShiWen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuShiWen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuShiWen/Pods-GuShiWen.debug.xcconfig"; sourceTree = "<group>"; };
-		36A5C25B1CBBD874008CAADD /* GSWSayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWSayingViewController.h; sourceTree = "<group>"; };
-		36A5C25C1CBBD874008CAADD /* GSWSayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWSayingViewController.m; sourceTree = "<group>"; };
-		36A5C25E1CBBD887008CAADD /* GSWBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWBookViewController.h; sourceTree = "<group>"; };
-		36A5C25F1CBBD887008CAADD /* GSWBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWBookViewController.m; sourceTree = "<group>"; };
 		36A5C2611CBBD89A008CAADD /* GSWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWHomeViewController.h; sourceTree = "<group>"; };
 		36A5C2621CBBD89A008CAADD /* GSWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWHomeViewController.m; sourceTree = "<group>"; };
 		36A5C2641CBBE663008CAADD /* GSWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWHomeViewController.xib; sourceTree = "<group>"; };
@@ -88,6 +92,22 @@
 		36A5C2821CBE9A61008CAADD /* GSWPoemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWPoemViewController.xib; sourceTree = "<group>"; };
 		36A5C2851CBE9B93008CAADD /* GSWPoemResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWPoemResponse.h; sourceTree = "<group>"; };
 		36A5C2861CBE9B93008CAADD /* GSWPoemResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWPoemResponse.m; sourceTree = "<group>"; };
+		36A5C2881CBFD5EE008CAADD /* GSWSayingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWSayingResponse.h; sourceTree = "<group>"; };
+		36A5C2891CBFD5EE008CAADD /* GSWSayingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWSayingResponse.m; sourceTree = "<group>"; };
+		36A5C28B1CBFD723008CAADD /* GSWSayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWSayingViewController.h; sourceTree = "<group>"; };
+		36A5C28C1CBFD723008CAADD /* GSWSayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWSayingViewController.m; sourceTree = "<group>"; };
+		36A5C28D1CBFD723008CAADD /* GSWSayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWSayingViewController.xib; sourceTree = "<group>"; };
+		36A5C2901CBFDC40008CAADD /* GSWSayingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWSayingTableViewCell.h; sourceTree = "<group>"; };
+		36A5C2911CBFDC40008CAADD /* GSWSayingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWSayingTableViewCell.m; sourceTree = "<group>"; };
+		36A5C2921CBFDC40008CAADD /* GSWSayingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWSayingTableViewCell.xib; sourceTree = "<group>"; };
+		36A5C2951CBFE054008CAADD /* GSWBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWBookViewController.h; sourceTree = "<group>"; };
+		36A5C2961CBFE054008CAADD /* GSWBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWBookViewController.m; sourceTree = "<group>"; };
+		36A5C2971CBFE054008CAADD /* GSWBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWBookViewController.xib; sourceTree = "<group>"; };
+		36A5C29A1CBFE1C3008CAADD /* GSWBookResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWBookResponse.h; sourceTree = "<group>"; };
+		36A5C29B1CBFE1C3008CAADD /* GSWBookResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWBookResponse.m; sourceTree = "<group>"; };
+		36A5C29D1CBFE6C9008CAADD /* GSWBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWBookTableViewCell.h; sourceTree = "<group>"; };
+		36A5C29E1CBFE6C9008CAADD /* GSWBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWBookTableViewCell.m; sourceTree = "<group>"; };
+		36A5C29F1CBFE6C9008CAADD /* GSWBookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWBookTableViewCell.xib; sourceTree = "<group>"; };
 		36D5B8B61CBB899F00BB245C /* GuShiWen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuShiWen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D5B8BA1CBB899F00BB245C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36D5B8BC1CBB899F00BB245C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -271,6 +291,10 @@
 				36A5C2761CBD5496008CAADD /* GSWAuthorInfoResponse.m */,
 				36A5C2851CBE9B93008CAADD /* GSWPoemResponse.h */,
 				36A5C2861CBE9B93008CAADD /* GSWPoemResponse.m */,
+				36A5C2881CBFD5EE008CAADD /* GSWSayingResponse.h */,
+				36A5C2891CBFD5EE008CAADD /* GSWSayingResponse.m */,
+				36A5C29A1CBFE1C3008CAADD /* GSWBookResponse.h */,
+				36A5C29B1CBFE1C3008CAADD /* GSWBookResponse.m */,
 			);
 			name = Entity;
 			sourceTree = "<group>";
@@ -281,6 +305,12 @@
 				36A5C26A1CBD1EA5008CAADD /* GSWHomeTableViewCell.h */,
 				36A5C26B1CBD1EA5008CAADD /* GSWHomeTableViewCell.m */,
 				36A5C26D1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib */,
+				36A5C2901CBFDC40008CAADD /* GSWSayingTableViewCell.h */,
+				36A5C2911CBFDC40008CAADD /* GSWSayingTableViewCell.m */,
+				36A5C2921CBFDC40008CAADD /* GSWSayingTableViewCell.xib */,
+				36A5C29D1CBFE6C9008CAADD /* GSWBookTableViewCell.h */,
+				36A5C29E1CBFE6C9008CAADD /* GSWBookTableViewCell.m */,
+				36A5C29F1CBFE6C9008CAADD /* GSWBookTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -290,10 +320,6 @@
 			children = (
 				36D5B90E1CBBD76500BB245C /* GSWBaseViewController.h */,
 				36D5B90F1CBBD76500BB245C /* GSWBaseViewController.m */,
-				36A5C25B1CBBD874008CAADD /* GSWSayingViewController.h */,
-				36A5C25C1CBBD874008CAADD /* GSWSayingViewController.m */,
-				36A5C25E1CBBD887008CAADD /* GSWBookViewController.h */,
-				36A5C25F1CBBD887008CAADD /* GSWBookViewController.m */,
 				36A5C2611CBBD89A008CAADD /* GSWHomeViewController.h */,
 				36A5C2621CBBD89A008CAADD /* GSWHomeViewController.m */,
 				36A5C2641CBBE663008CAADD /* GSWHomeViewController.xib */,
@@ -303,6 +329,12 @@
 				36A5C2801CBE9A61008CAADD /* GSWPoemViewController.h */,
 				36A5C2811CBE9A61008CAADD /* GSWPoemViewController.m */,
 				36A5C2821CBE9A61008CAADD /* GSWPoemViewController.xib */,
+				36A5C28B1CBFD723008CAADD /* GSWSayingViewController.h */,
+				36A5C28C1CBFD723008CAADD /* GSWSayingViewController.m */,
+				36A5C28D1CBFD723008CAADD /* GSWSayingViewController.xib */,
+				36A5C2951CBFE054008CAADD /* GSWBookViewController.h */,
+				36A5C2961CBFE054008CAADD /* GSWBookViewController.m */,
+				36A5C2971CBFE054008CAADD /* GSWBookViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -432,6 +464,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A5C2941CBFDC40008CAADD /* GSWSayingTableViewCell.xib in Resources */,
+				36A5C2991CBFE054008CAADD /* GSWBookViewController.xib in Resources */,
 				36D5B8C91CBB899F00BB245C /* LaunchScreen.storyboard in Resources */,
 				36A5C26E1CBD1EB9008CAADD /* GSWHomeTableViewCell.xib in Resources */,
 				36D5B8C61CBB899F00BB245C /* Assets.xcassets in Resources */,
@@ -439,6 +473,8 @@
 				36A5C27F1CBE8A45008CAADD /* GSWNewUpdateViewController.xib in Resources */,
 				36A5C2651CBBE663008CAADD /* GSWHomeViewController.xib in Resources */,
 				36A5C2841CBE9A61008CAADD /* GSWPoemViewController.xib in Resources */,
+				36A5C28F1CBFD723008CAADD /* GSWSayingViewController.xib in Resources */,
+				36A5C2A11CBFE6C9008CAADD /* GSWBookTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,24 +535,28 @@
 				36D5B8F61CBB8FD400BB245C /* GSWHttpSessionManager.m in Sources */,
 				36A5C26C1CBD1EA5008CAADD /* GSWHomeTableViewCell.m in Sources */,
 				36D5B8C11CBB899F00BB245C /* ViewController.m in Sources */,
+				36A5C28E1CBFD723008CAADD /* GSWSayingViewController.m in Sources */,
 				36A5C2871CBE9B93008CAADD /* GSWPoemResponse.m in Sources */,
 				36A5C2831CBE9A61008CAADD /* GSWPoemViewController.m in Sources */,
 				36A5C2741CBD4BCD008CAADD /* GSWDatabaseOperation.m in Sources */,
 				36D5B8F91CBB91D500BB245C /* GSWRequestBuild.m in Sources */,
+				36A5C2A01CBFE6C9008CAADD /* GSWBookTableViewCell.m in Sources */,
 				36A5C2771CBD5496008CAADD /* GSWAuthorInfoResponse.m in Sources */,
 				36D5B9101CBBD76500BB245C /* GSWBaseViewController.m in Sources */,
-				36A5C25D1CBBD874008CAADD /* GSWSayingViewController.m in Sources */,
 				36A5C27A1CBE7F43008CAADD /* GSWGlobalObject.m in Sources */,
 				36D5B8BE1CBB899F00BB245C /* AppDelegate.m in Sources */,
 				36D5B8F21CBB8D4700BB245C /* GSWNetApiManager.m in Sources */,
 				36A5C2631CBBD89A008CAADD /* GSWHomeViewController.m in Sources */,
 				36D5B8FC1CBB949500BB245C /* GSWMainPageRequest.m in Sources */,
-				36A5C2601CBBD887008CAADD /* GSWBookViewController.m in Sources */,
+				36A5C2931CBFDC40008CAADD /* GSWSayingTableViewCell.m in Sources */,
 				36D5B9051CBB955600BB245C /* GSWMainPageResponse.m in Sources */,
 				36A5C2691CBD1CEE008CAADD /* NSObject+ObjectDynamicSerilize.m in Sources */,
 				36A5C27E1CBE8A45008CAADD /* GSWNewUpdateViewController.m in Sources */,
 				36A5C2711CBD4A50008CAADD /* GSWDatabaseManager.m in Sources */,
 				36D5B8BB1CBB899F00BB245C /* main.m in Sources */,
+				36A5C28A1CBFD5EE008CAADD /* GSWSayingResponse.m in Sources */,
+				36A5C2981CBFE054008CAADD /* GSWBookViewController.m in Sources */,
+				36A5C29C1CBFE1C3008CAADD /* GSWBookResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

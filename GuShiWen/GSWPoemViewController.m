@@ -42,7 +42,7 @@
 - (void)requestNewPoem {
     
     __weak typeof(self) weakSelf = self;
-    [[GSWNetApiManager sharedInstance] sendGetPoemPage:weakSelf.currentPage withBlock:^(id data, NSError *error) {
+    [[GSWNetApiManager sharedInstance] sendGetMainPageInfo:self.currentPage withUrlString:shiwenUrl withBlock:^(id data, NSError *error) {
         if (!error) {
             GSWPoemResponse *response = [NSObject initClassFromString:@"GSWPoemResponse" WithDictionary:data];
             weakSelf.dataSource = response;
@@ -74,6 +74,7 @@
 - (void)getAuthorInfo {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:getAuthorInfoSucceed object:nil
      ];
+    [self.tableView reloadData];
 }
 
 @end

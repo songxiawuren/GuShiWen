@@ -53,13 +53,14 @@ static GSWNetApiManager *manager;
     }];
 }
 
-- (void)sendGetPoemPage: (NSInteger)currentPage withBlock : (requestBlock)block {
+- (void)sendGetMainPageInfo : (NSInteger)currentPage withUrlString : (NSString *)url withBlock : (requestBlock)block {
     NSInteger method = NetMethodGet;
-    NSString *path = [NSString stringWithFormat:@"/api/shiwen/type.aspx?token=gswapi&page=%ld",currentPage];
+    NSString *path = [NSString stringWithFormat:url,currentPage];
     [[GSWHttpSessionManager sharedInstance] requestDataWithPath:path withParams:nil withMethodType:method andBlock:^(id data, NSError *error) {
         block(data,error);
     }];
 }
+
 
 @end
 

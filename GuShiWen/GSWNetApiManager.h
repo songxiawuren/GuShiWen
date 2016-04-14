@@ -14,7 +14,6 @@
 
 + (GSWNetApiManager *)sharedInstance;
 - (void)sendNewUpdatePoemRequest: (GSWRequestBuild *)params withBlock : (requestBlock)block;
+- (void)sendGetMainPageInfo : (NSInteger)currentPage withUrlString : (NSString *)url withBlock : (requestBlock)block;
 - (void)sendGetAllAuthorWithPictureRequestWithBlock : (requestBlock)block;
-- (void)sendGetPoemPage: (NSInteger)currentPage withBlock : (requestBlock)block;
-
 @end
